@@ -19,4 +19,4 @@ Contents
 .. toctree::
 
    usage
-   accountReceivable API Collection
+   api
