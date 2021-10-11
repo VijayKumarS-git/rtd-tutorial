@@ -1,4 +1,4 @@
-AccountReceivable API Collection
+Liquidity Analysis API Collection
 =====================
 
 Airflow exposes an experimental Rest API. It is available through the webserver. Endpoints are
