@@ -1,4 +1,4 @@
-Welcome to Infofiscus documentation!
+Welcome to Infofiscus Rest API documentation!
 ===================================
 
 .. note::
