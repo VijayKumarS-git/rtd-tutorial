@@ -10,7 +10,7 @@ Contents
 
 .. toctree::
 
-   api
+   ARbyCustomer
 
 #. Step 1.
 #. Step 2.
