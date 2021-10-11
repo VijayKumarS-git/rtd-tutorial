@@ -10,6 +10,6 @@ Content
 
 .. toctree::
 
-   AccountReceivable API Collections
+   AccountReceivable API Collection
    
 
