@@ -8,8 +8,11 @@ Welcome to Infofiscus documentation!
 Contents
 --------
 
+.. toctree::
+
+   api
 
 #. Step 1.
 #. Step 2.
-#. Step 3.
+#. api
 #. `CNN <http://cnn.com>`_
