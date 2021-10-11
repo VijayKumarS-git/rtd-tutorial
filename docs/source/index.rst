@@ -10,9 +10,6 @@ Content
 
 .. toctree::
 
-   getARbyAccount
+   Account Receivable API Collections
+   
 
-#. Step 1.
-#. Step 2.
-#. api
-#. `CNN <http://cnn.com>`_
