@@ -1,5 +1,5 @@
  Balance Sheet API Collection
- =====================
+ ============================
 
 Airflow exposes an experimental Rest API. It is available through the webserver. Endpoints are
 available at /api/experimental/. Please note that we expect the endpoint definitions to change.
