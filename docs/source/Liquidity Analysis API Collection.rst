@@ -4,16 +4,16 @@ Liquidity Analysis API Collection
 Airflow exposes an experimental Rest API. It is available through the webserver. Endpoints are
 available at /api/experimental/. Please note that we expect the endpoint definitions to change.
 
-Endpoints
----------
+Summary
+-------
 
 This is a place holder until the swagger definitions are active
 
 * /api/experimental/dags/<DAG_ID>/tasks/<TASK_ID> returns info for a task (GET).
 * /api/experimental/dags/<DAG_ID>/dag_runs creates a dag_run for a given dag id (POST).
 
-Response
---------
+Endpoints
+---------
 
 For some functions the cli can use the API. To configure the CLI to use the API when available
 configure as follows:
