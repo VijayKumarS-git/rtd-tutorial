@@ -8,8 +8,6 @@ Welcome to Infofiscus documentation!
 Contents
 --------
 
-.. toctree::
-
    ARbyCustomer
 
 #. Step 1.
