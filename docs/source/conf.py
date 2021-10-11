@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Infofiscus'
+project = 'Infofiscus Rest API'
 copyright = '2021, Graziella'
 author = 'Graziella'
 
