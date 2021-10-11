@@ -5,10 +5,12 @@ Welcome to Infofiscus documentation!
 
    This project is currently under active development.
 
-Contents
---------
+Content
+-------
+.. toctree::
+    :maxdepth: 4
 
-   ARbyCustomer
+    getARbyAccount
 
 #. Step 1.
 #. Step 2.
