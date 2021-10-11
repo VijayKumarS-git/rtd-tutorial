@@ -11,5 +11,7 @@ Content
 .. toctree::
 
    AccountReceivable API Collection
+   AccountReceivable Analysis API Collection
+   Liquidity Analysis API Collection
    
 
