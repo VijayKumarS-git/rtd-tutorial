@@ -7,10 +7,10 @@ Welcome to Infofiscus documentation!
 
 Content
 -------
-.. toctree::
-    :maxdepth: 4
 
-    getARbyAccount
+.. toctree::
+
+   getARbyAccount
 
 #. Step 1.
 #. Step 2.
