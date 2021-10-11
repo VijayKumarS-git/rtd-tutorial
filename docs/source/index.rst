@@ -3,7 +3,7 @@ Welcome to Infofiscus documentation!
 
 .. note::
 
-   This project is under active development.
+   This project is currently under active development.
 
 Contents
 --------
