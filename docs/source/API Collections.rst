@@ -4,6 +4,8 @@ API Collections
 Account Receivable 
 ******************
 
+:ref:`AccountReceivable API Collection`
+
 Summary
 =======
 
@@ -20,6 +22,5 @@ Question Input               ``yes`` or ``no``
 End Points
 ==========
 
-GET/getTotalNumberOfInvoices
-
+``GET/getTotalNumberOfInvoices``
 
