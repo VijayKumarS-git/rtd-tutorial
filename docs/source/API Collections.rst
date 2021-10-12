@@ -26,10 +26,7 @@ End Points
 
     Get Total number of invoices.
     
-invoices
-~~~~~~~~
-
-
+    
 
 Income and Expense Analysis 
 ***************************
@@ -42,6 +39,8 @@ End Points
 
 ``GET/getIncomeExpenseData``
 
+
+
 Liquidity Analysis 
 ******************
 
@@ -50,6 +49,8 @@ Summary
 
 End Points
 ==========
+
+
 
 
 Trial Balance 
@@ -62,6 +63,7 @@ End Points
 ==========
 
 
+
 AccountReceivable Analysis
 **************************
 
@@ -72,6 +74,7 @@ End Points
 ==========
 
 
+
 Profitability Analysis
 **********************
 
@@ -80,6 +83,7 @@ Summary
 
 End Points
 ==========
+
 
 
 Balance Sheet
@@ -103,6 +107,7 @@ End Points
 ==========
 
 
+
 Account Payable Analysis
 ************************
 
@@ -111,6 +116,7 @@ Summary
 
 End Points
 ==========
+
 
 
 P&L Statement
