@@ -26,6 +26,8 @@ End Points
 
     Get Total number of invoices.
     
+invoices
+~~~~~~~~
 
 
 
