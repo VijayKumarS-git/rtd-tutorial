@@ -4,7 +4,7 @@ API Collections
 Account Receivable 
 ******************
 
-  ..file:: AccountReceivable API Collection.rst
+  ..ref:: AccountReceivable API Collection.rst
 
 Summary
 =======
