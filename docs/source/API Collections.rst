@@ -22,3 +22,95 @@ End Points
 
 ``GET/getTotalNumberOfInvoices``
 
+
+Income and Expense Analysis 
+***************************
+
+Summary
+=======
+
+End Points
+==========
+
+``GET/getIncomeExpenseData``
+
+Liquidity Analysis 
+******************
+
+Summary
+=======
+
+End Points
+==========
+
+
+Trial Balance 
+*************
+
+Summary
+=======
+
+End Points
+==========
+
+
+AccountReceivable Analysis
+**************************
+
+Summary
+=======
+
+End Points
+==========
+
+
+Profitability Analysis
+**********************
+
+Summary
+=======
+
+End Points
+==========
+
+
+Balance Sheet
+*************
+
+Summary
+=======
+
+End Points
+==========
+
+
+
+Budget Detail
+*************
+
+Summary
+=======
+
+End Points
+==========
+
+
+Account Payable Analysis
+************************
+
+Summary
+=======
+
+End Points
+==========
+
+
+P&L Statement
+*************
+
+Summary
+=======
+
+End Points
+==========
+
