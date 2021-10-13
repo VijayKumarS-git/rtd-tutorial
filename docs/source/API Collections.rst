@@ -26,6 +26,11 @@ End Points
 
     Get Total number of invoices.
     
+Example Response
+
+.. code-block::
+
+      kjchjdhj
     
 
 Income and Expense Analysis 
@@ -52,6 +57,12 @@ End Points
 ``GET/getTotalNumberOfInvoices``
 
     Get Total number of invoices.
+    
+Example Response
+
+.. code-block::
+
+      kjchjdhj
 
 
 
