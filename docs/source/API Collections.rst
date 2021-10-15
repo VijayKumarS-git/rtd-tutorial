@@ -157,18 +157,18 @@ Profitability Analysis
 Summary
 =======
 
-==============================  ==========================
-Operations                      Description
-==============================  ==========================
-GET/getGrossProfitByItems       Get Gross Profit By Items.
-GET/getTop20ItemsByRevenue      Get Top 20 items By Revenue.
-GET/getNetProfitTrend           Get Net Profit Trend.
-GET/getProfitabilityDescription Get Profitability Description.
-GET/getGrossProfitByProductLine Get Gross Profit by ProductLine.
-GET/getCOGSByProductLine        Get COGS by ProductLine.
-GET/getRevenueByProductLine     Get Revenue by ProductLine.
-GET/getOperationalExpences      Get Operational Expences by items.
-==============================  ==========================
+================================  ============================
+Operations                        Description
+================================  ============================
+GET/getGrossProfitByItems         Get Gross Profit By Items.
+GET/getTop20ItemsByRevenue        Get Top 20 items By Revenue.
+GET/getNetProfitTrend             Get Net Profit Trend.
+GET/getProfitabilityDescription   Get Profitability Description.
+GET/getGrossProfitByProductLine   Get Gross Profit by ProductLine.
+GET/getCOGSByProductLine          Get COGS by ProductLine.
+GET/getRevenueByProductLine       Get Revenue by ProductLine.
+GET/getOperationalExpences        Get Operational Expences by items.
+================================  ============================
 
 
 End Points
