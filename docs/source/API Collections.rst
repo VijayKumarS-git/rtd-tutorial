@@ -26,12 +26,11 @@ End Points
 
     Get Total number of invoices.
     
-Example Response
+ 
+ ``GET/getTopARCustomers``
 
-.. code-block::
-
-      kjchjdhj
-    
+    Get all Top Account Receivable Customers.
+   
 
 Income and Expense Analysis 
 ***************************
