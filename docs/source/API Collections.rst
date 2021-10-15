@@ -11,11 +11,11 @@ Summary
 Operations                      Description
 ==============================  ==========================
 GET/getTotalNumberOfInvoices    Get Total number of invoices.
-GET/getTopARCustomers           Get all Top Account Receivable Customers.
+GET/getTopARCustomers           Get Top Account Receivable Customers.
 GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
-GET/getDSO                      Get Total DSO details.
-GET/getMapInvoiceStatus         Get all Map Invoice Status details.
-GET/getOpenInvoiceDetails       Get Total Open Invoice Details.
+GET/getDSO                      Get DSO details.
+GET/getMapInvoiceStatus         Get Map Invoice Status details.
+GET/getOpenInvoiceDetails       Get Open Invoice Details.
 ==============================  ==========================
 
 
@@ -57,29 +57,27 @@ Summary
 ==============================  ==========================
 Operations                      Description
 ==============================  ==========================
-GET/getTotalNumberOfInvoices    Get Total number of invoices.
-GET/getTopARCustomers           Get all Top Account Receivable Customers.
-GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
-GET/getDSO                      Get Total DSO details.
-GET/getMonthInvoiceStatus       Get Month Invoice Status details.
-GET/getOpenInvoiceDetails       Get Open Invoice Details.
+GET/getExpensesByMonth          Get Expenses By Month.
+GET/getOpExRevenueRatio         Get OpEx to Revenue Ratio.
+GET/getIncomeExpenses           Get Income and Expenses.
 ==============================  ==========================
 
 
 End Points
 ==========
 
-``GET/getTotalNumberOfInvoices``
+``GET/getExpensesByMonth``
 
-    Get Total number of invoices.
+    Get Total Expenses By Month details.
     
-Example Response
+``GET/getOpExRevenueRatio``
 
-.. code-block::
+    Get OpEx to Revenue Ratio details.
 
-      kjchjdhj
+``GET/getIncomeExpenses``
 
-
+    Get Total Income and Expenses details.
+    
 
 Liquidity Analysis 
 ******************
@@ -90,49 +88,31 @@ Summary
 ==============================  ==========================
 Operations                      Description
 ==============================  ==========================
-GET/getTotalNumberOfInvoices    Get Total number of invoices.
-GET/getTopARCustomers           Get all Top Account Receivable Customers.
-GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
-GET/getDSO                      Get Total DSO details.
-GET/getMonthInvoiceStatus       Get Month Invoice Status details.
-GET/getOpenInvoiceDetails       Get Open Invoice Details.
+GET/getCashAndAR                Get Cash And AR.
+GET/getTopARCustomers           Get Top Account Receivable By Customers.
+GET/getARbyCompany              Get Account Receivable By Company.
+GET/getAPbyCompany              Get AP By Company details.
 ==============================  ==========================
 
 
 End Points
 ==========
 
-``GET/getTotalNumberOfInvoices``
+``GET/getCashAndAR``
 
-    Get Total number of invoices.
+    Get Total number of Cash And AR details.
 
+``GET/getTopARCustomers``
 
+    Get all Top Account Receivable By Customers.
+ 
+``GET/getARbyCompany``
 
+    Get Account Receivable By Companydetails.
 
-Trial Balance 
-*************
+``GET/getAPbyCompany``
 
-Summary
-=======
-
-==============================  ==========================
-Operations                      Description
-==============================  ==========================
-GET/getTotalNumberOfInvoices    Get Total number of invoices.
-GET/getTopARCustomers           Get all Top Account Receivable Customers.
-GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
-GET/getDSO                      Get Total DSO details.
-GET/getMonthInvoiceStatus       Get Month Invoice Status details.
-GET/getOpenInvoiceDetails       Get Open Invoice Details.
-==============================  ==========================
-
-
-End Points
-==========
-
-``GET/getTotalNumberOfInvoices``
-
-    Get Total number of invoices.
+    Get AP By Company details..
 
 
 AccountReceivable Analysis
@@ -144,24 +124,33 @@ Summary
 ==============================  ==========================
 Operations                      Description
 ==============================  ==========================
-GET/getTotalNumberOfInvoices    Get Total number of invoices.
-GET/getTopARCustomers           Get all Top Account Receivable Customers.
-GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
-GET/getDSO                      Get Total DSO details.
-GET/getMonthInvoiceStatus       Get Month Invoice Status details.
-GET/getOpenInvoiceDetails       Get Open Invoice Details.
+GET/getARbyCity                 Get Account Receivable by City.
+GET/getOutstandingbyCompany     Get Outstanding By Company.
+GET/getARbyInvoiceNumber        Get AR By Invoice Number.
+GET/getOpenInvoices             Get Open Invoices.
 ==============================  ==========================
 
 
 End Points
 ==========
 
-``GET/getTotalNumberOfInvoices``
+``GET/getARbyCity``
 
-    Get Total number of invoices.
+    Get Total Account Receivable by City details.
+    
+``GET/getOutstandingbyCompany``
 
+    Get Total Outstanding By Company details.
 
+``GET/getARbyInvoiceNumber``
 
+    Get Total AR By Invoice Number details.
+    
+``GET/getOpenInvoices``
+
+    Get Total Open Invoices details.    
+    
+    
 Profitability Analysis
 **********************
 
@@ -171,51 +160,53 @@ Summary
 ==============================  ==========================
 Operations                      Description
 ==============================  ==========================
-GET/getTotalNumberOfInvoices    Get Total number of invoices.
-GET/getTopARCustomers           Get all Top Account Receivable Customers.
-GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
-GET/getDSO                      Get Total DSO details.
-GET/getMonthInvoiceStatus       Get Month Invoice Status details.
-GET/getOpenInvoiceDetails       Get Open Invoice Details.
+GET/getGrossProfitByItems       Get Gross Profit By Items.
+GET/getTop20ItemsByRevenue      Get Top 20 items By Revenue.
+GET/getNetProfitTrend           Get Net Profit Trend.
+GET/getProfitabilityDescription Get Profitability Description.
+GET/getGrossProfitByProductLine Get Gross Profit by ProductLine.
+GET/getCOGSByProductLine        Get COGS by ProductLine.
+GET/getRevenueByProductLine     Get Revenue by ProductLine.
+GET/getOperationalExpences      Get Operational Expences by items.
 ==============================  ==========================
 
 
 End Points
 ==========
 
-``GET/getTotalNumberOfInvoices``
+``GET/getGrossProfitByItems``
 
-    Get Total number of invoices.
+    Get Gross Profit By Items details.
 
+``GET/getTop20ItemsByRevenue``
 
+    Get Top 20 items By Revenue details.
+    
+``GET/getNetProfitTrend``
 
-Balance Sheet
-*************
+    Get Net Profit Trend details.    
+    
+``GET/getProfitabilityDescription``
 
-Summary
-=======
+    Get Profitability Description details.   
+    
+``GET/getGrossProfitByProductLine``
 
-==============================  ==========================
-Operations                      Description
-==============================  ==========================
-GET/getTotalNumberOfInvoices    Get Total number of invoices.
-GET/getTopARCustomers           Get all Top Account Receivable Customers.
-GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
-GET/getDSO                      Get Total DSO details.
-GET/getMonthInvoiceStatus       Get Month Invoice Status details.
-GET/getOpenInvoiceDetails       Get Open Invoice Details.
-==============================  ==========================
+    Get Gross Profit by ProductLine details.   
+    
+``GET/getCOGSByProductLine``
 
+    Get COGS by ProductLine details.  
+    
+``GET/getRevenueByProductLine``
 
-End Points
-==========
+    Get Revenue by ProductLine details.
+    
+``GET/getOperationalExpences``
 
-``GET/getTotalNumberOfInvoices``
-
-    Get Total number of invoices.
-
-
-
+    Get Operational Expences by items details.    
+    
+    
 Budget Detail
 *************
 
@@ -225,23 +216,38 @@ Summary
 ==============================  ==========================
 Operations                      Description
 ==============================  ==========================
-GET/getTotalNumberOfInvoices    Get Total number of invoices.
-GET/getTopARCustomers           Get all Top Account Receivable Customers.
-GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
-GET/getDSO                      Get Total DSO details.
-GET/getMonthInvoiceStatus       Get Month Invoice Status details.
-GET/getOpenInvoiceDetails       Get Open Invoice Details.
+GET/getExpenses                 Get Expenses.
+GET/getRevenue                  Get Revenue.
+GET/getDepartmentalExpenses     Get Departmental Expenses.
+GET/getExpensesVariance         Get Expenses Variance.
+GET/getRevenueVariance          Get Revenue Variance.
 ==============================  ==========================
 
 
 End Points
 ==========
 
-``GET/getTotalNumberOfInvoices``
+``GET/getExpenses``
 
-    Get Total number of invoices.
+    Get Expenses details.
 
+``GETgetRevenue``
 
+    Get Revenue details.
+    
+``GET/getDepartmentalExpenses``
+
+    Get Departmental Expenses details.
+    
+``GET/getExpensesVariance``
+
+    Get Expenses Variance details.    
+    
+``GET/getRevenueVariance``
+
+    Get Revenue Variance details.    
+    
+    
 
 Account Payable Analysis
 ************************
@@ -252,46 +258,21 @@ Summary
 ==============================  ==========================
 Operations                      Description
 ==============================  ==========================
-GET/getTotalNumberOfInvoices    Get Total number of invoices.
-GET/getTopARCustomers           Get all Top Account Receivable Customers.
-GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
-GET/getDSO                      Get Total DSO details.
-GET/getMonthInvoiceStatus       Get Month Invoice Status details.
-GET/getOpenInvoiceDetails       Get Open Invoice Details.
+GET/getTopCreditors             Get Top Creditors.
+GET/getPaymentProcessEvolved    Get Payment Process Evolved.
 ==============================  ==========================
 
 
 End Points
 ==========
 
-``GET/getTotalNumberOfInvoices``
+``GET/getTopCreditors``
 
-    Get Total number of invoices.
+    Get Top Creditors details.
+    
+``GET/getPaymentProcessEvolved``
 
-
-
-P&L Statement
-*************
-
-Summary
-=======
-
-==============================  ==========================
-Operations                      Description
-==============================  ==========================
-GET/getTotalNumberOfInvoices    Get Total number of invoices.
-GET/getTopARCustomers           Get all Top Account Receivable Customers.
-GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
-GET/getDSO                      Get Total DSO details.
-GET/getMonthInvoiceStatus       Get Month Invoice Status details.
-GET/getOpenInvoiceDetails       Get Open Invoice Details.
-==============================  ==========================
+    Get Payment Process Evolved details.
 
 
-End Points
-==========
-
-``GET/getTotalNumberOfInvoices``
-
-    Get Total number of invoices.
 
