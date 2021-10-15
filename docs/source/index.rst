@@ -12,5 +12,6 @@ Content
 
    About
    API Collections
+   Glossary Terms
    
 
