@@ -14,8 +14,8 @@ GET/getTotalNumberOfInvoices    Get Total number of invoices.
 GET/getTopARCustomers           Get all Top Account Receivable Customers.
 GET/getInvoiceOutstandingDue    Get Total Invoice Outstanding Due Amount.
 GET/getDSO                      Get Total DSO details.
-GET/getMonthInvoiceStatus       Get Month Invoice Status details.
-GET/getOpenInvoiceDetails       Get Open Invoice Details.
+GET/getMapInvoiceStatus         Get all Map Invoice Status details.
+GET/getOpenInvoiceDetails       Get Total Open Invoice Details.
 ==============================  ==========================
 
 
@@ -27,10 +27,26 @@ End Points
     Get Total number of invoices.
     
  
- ``GET/getTopARCustomers``
+``GET/getTopARCustomers``
 
     Get all Top Account Receivable Customers.
+    
+``GET/getInvoiceOutstandingDue``
    
+    Get Total Invoice Outstanding Due Amount.
+    
+``getDSO``
+
+    Get Total DSO details.
+    
+``GET/getMonthInvoiceStatus``
+    
+    Get all Map Invoice Status details.
+    
+``GET/getOpenInvoiceDetails`` 
+    
+    Get Open Invoice Details.
+ 
 
 Income and Expense Analysis 
 ***************************
