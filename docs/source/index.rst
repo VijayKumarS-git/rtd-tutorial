@@ -11,8 +11,10 @@ Content
 .. toctree::
 
    About
+   What's New
+   Configuration
    API Collections
    Glossary Terms
-   What's New
+
    
 
