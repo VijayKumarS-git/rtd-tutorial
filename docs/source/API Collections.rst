@@ -22,7 +22,7 @@ GET/getOpenInvoiceDetails       Get Open Invoice Details.
 End Points
 ==========
 
-.. autoclass:: GET/getTotalNumberOfInvoices
+.. autofunction:: GET/getTotalNumberOfInvoices
 
     Get Total number of invoices.
     
