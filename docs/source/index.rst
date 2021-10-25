@@ -22,7 +22,6 @@ Content
    Options
    Reference Data
    Market Info
-   Sandbox Environment
    Caching Queries
 
    
