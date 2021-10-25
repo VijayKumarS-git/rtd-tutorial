@@ -22,11 +22,10 @@ GET/getOpenInvoiceDetails       Get Open Invoice Details.
 End Points
 ==========
 
-.. autofunction:: GET/getTotalNumberOfInvoices
+``GET/getTotalNumberOfInvoices``
 
     Get Total number of invoices.
     
- 
 ``GET/getTopARCustomers``
 
     Get all Top Account Receivable Customers.hhhhhhh
