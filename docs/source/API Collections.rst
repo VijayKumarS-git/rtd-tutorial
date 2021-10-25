@@ -28,7 +28,7 @@ End Points
     
 ``GET/getTopARCustomers``
 
-    Get all Top Account Receivable Customers.hhhhhhh
+    Get all Top Account Receivable Customers.
     
 ``GET/getInvoiceOutstandingDue``
    
