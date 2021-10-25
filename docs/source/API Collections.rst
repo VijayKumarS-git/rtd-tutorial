@@ -24,7 +24,7 @@ End Points
 
 ``GET/getTotalNumberOfInvoices``
 
-    Get Total number of invoices.
+    **Get Total number of invoices.**
     
 ``GET/getTopARCustomers``
 
