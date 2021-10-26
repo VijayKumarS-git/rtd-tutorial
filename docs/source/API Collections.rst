@@ -22,7 +22,7 @@ GET/getOpenInvoiceDetails       Get Open Invoice Details.
 End Points
 ==========
 
-.. autoflask:: GET/getTotalNumberOfInvoices
+``GET/getTotalNumberOfInvoices``
 
     Get Total number of invoices.
     
@@ -35,8 +35,9 @@ End Points
         
 **Response**
 
-    .. code-block::
-       $ Hello
+.. code-block:: rs
+
+   Lumache has its documentation hosted on Read the Docs.
     
 ``GET/getTopARCustomers``
 
