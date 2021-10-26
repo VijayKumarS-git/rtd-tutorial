@@ -46,10 +46,22 @@ End Points
     
     Get Open Invoice Details.
     
-.. autoclass:: GET/getOpenInvoiceDetails
-
-   Corresponding with the fields in responses from
-   Twitter's API.
+Parameters
+----------
+bearer_token : Optional[str]
+    Twitter API Bearer Token
+consumer_key : Optional[str]
+    Twitter API Consumer Key
+consumer_secret : Optional[str]
+    Twitter API Consumer Secret
+access_token : Optional[str]
+    Twitter API Access Token
+access_token_secret : Optional[str]
+    Twitter API Access Token Secret
+return_type : Type[dict, requests.Response, Response]
+    Type to return from requests to the API
+wait_on_rate_limit : bool
+    Whether to wait when rate limit is reached
  
 
 Income and Expense Analysis 
