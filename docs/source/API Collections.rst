@@ -21,12 +21,30 @@ GET/getOpenInvoiceDetails       Get Open Invoice Details.
 
 End Points
 ==========
-.. http:get:: getTotalNumberOfInvoices
+
+Total Invoices By Month 
++++++++++++++++++++++++
+
+.. http:get:: /getTotalNumberOfInvoices
     
     Get Total number of invoices.
-    
-:query string language: language code as ``en``, ``es``, ``ru``, etc.
-:query string programming_language: programming language code as ``py``, ``js``, etc.
+ 
+**Example response**:
+
+    .. sourcecode:: json
+
+        {
+            "count": 25,
+            "next": "/api/v3/projects/?limit=10&offset=10",
+            "previous": null,
+        }
+        
+**Parameters :**
+
+    bearer_token : Optional[str]
+        Twitter API Bearer Token
+    consumer_key : Optional[str]
+        Twitter API Consumer Key
 
 
 ``GET/getTotalNumberOfInvoices``
@@ -40,7 +58,6 @@ End Points
     consumer_key : Optional[str]
         Twitter API Consumer Key
         
-**Response**
 
 .. code-block:: rs
 
