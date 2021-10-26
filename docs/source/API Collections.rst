@@ -20,8 +20,7 @@ GET/getOpenInvoiceDetails       Get Open Invoice Details.
 
 
 End Points
-==========
-
+~~~~~~~~~~
 Total Invoices By Month 
 +++++++++++++++++++++++
 
