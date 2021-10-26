@@ -24,7 +24,7 @@ End Points
 Total Invoices By Month 
 +++++++++++++++++++++++
 
-.. http:get:: /getTotalNumberOfInvoices
+.. http:get:: /api/v3/projects/
     
     Get Total number of invoices.
  
