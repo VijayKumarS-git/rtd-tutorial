@@ -21,6 +21,13 @@ GET/getOpenInvoiceDetails       Get Open Invoice Details.
 
 End Points
 ==========
+.. http:get:: getTotalNumberOfInvoices
+    
+    Get Total number of invoices.
+    
+:query string language: language code as ``en``, ``es``, ``ru``, etc.
+:query string programming_language: programming language code as ``py``, ``js``, etc.
+
 
 ``GET/getTotalNumberOfInvoices``
 
