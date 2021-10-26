@@ -32,6 +32,11 @@ End Points
         Twitter API Bearer Token
     consumer_key : Optional[str]
         Twitter API Consumer Key
+        
+**Response**
+
+    .. code-block::
+       Hello
     
 ``GET/getTopARCustomers``
 
