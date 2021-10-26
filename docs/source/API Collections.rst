@@ -26,13 +26,34 @@ End Points
 
     Get Total number of invoices.
     
+Parameters
+----------
+bearer_token : Optional[str]
+    Twitter API Bearer Token
+consumer_key : Optional[str]
+    Twitter API Consumer Key
+    
 ``GET/getTopARCustomers``
 
     Get all Top Account Receivable Customers.
     
+Parameters
+----------
+bearer_token : Optional[str]
+    Twitter API Bearer Token
+consumer_key : Optional[str]
+    Twitter API Consumer Key
+    
 ``GET/getInvoiceOutstandingDue``
    
     Get Total Invoice Outstanding Due Amount.
+    
+Parameters
+----------
+bearer_token : Optional[str]
+    Twitter API Bearer Token
+consumer_key : Optional[str]
+    Twitter API Consumer Key
     
 ``getDSO``
 
@@ -45,23 +66,6 @@ End Points
 ``GET/getOpenInvoiceDetails`` 
     
     Get Open Invoice Details.
-    
-Parameters
-----------
-bearer_token : Optional[str]
-    Twitter API Bearer Token
-consumer_key : Optional[str]
-    Twitter API Consumer Key
-consumer_secret : Optional[str]
-    Twitter API Consumer Secret
-access_token : Optional[str]
-    Twitter API Access Token
-access_token_secret : Optional[str]
-    Twitter API Access Token Secret
-return_type : Type[dict, requests.Response, Response]
-    Type to return from requests to the API
-wait_on_rate_limit : bool
-    Whether to wait when rate limit is reached
  
 
 Income and Expense Analysis 
