@@ -22,7 +22,7 @@ GET/getOpenInvoiceDetails       Get Open Invoice Details.
 End Points
 ==========
 
-``GET/getTotalNumberOfInvoices``
+.. autoflask:: GET/getTotalNumberOfInvoices
 
     Get Total number of invoices.
     
@@ -36,7 +36,7 @@ End Points
 **Response**
 
     .. code-block::
-       Hello
+       $ Hello
     
 ``GET/getTopARCustomers``
 
