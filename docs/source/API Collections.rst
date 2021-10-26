@@ -26,12 +26,12 @@ End Points
 
     Get Total number of invoices.
     
-**Parameters**
+**Parameters :**
 
-bearer_token : Optional[str]
-    Twitter API Bearer Token
-consumer_key : Optional[str]
-    Twitter API Consumer Key
+    bearer_token : Optional[str]
+        Twitter API Bearer Token
+    consumer_key : Optional[str]
+        Twitter API Consumer Key
     
 ``GET/getTopARCustomers``
 
