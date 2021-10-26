@@ -45,6 +45,13 @@ End Points
 ``GET/getOpenInvoiceDetails`` 
     
     Get Open Invoice Details.
+    
+.. autoclass:: Response
+
+   The :obj:`Response` returned by :class:`Client` methods is a
+   :class:`collections.namedtuple`, with ``data``, ``includes``, ``errors``,
+   and ``meta`` fields, corresponding with the fields in responses from
+   Twitter's API.
  
 
 Income and Expense Analysis 
