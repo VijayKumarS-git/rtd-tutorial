@@ -20,30 +20,38 @@ GET/getOpenInvoiceDetails       Get Open Invoice Details.
 
 
 End Points
-~~~~~~~~~~
+==========
 Total Invoices By Month 
-+++++++++++++++++++++++
 
 .. http:get:: /api/v3/projects/
     
-    Get Total number of invoices.
+    Retrive Total number of invoices.
  
 **Example response**:
 
     .. sourcecode:: json
 
         {
-            "count": 25,
-            "next": "/api/v3/projects/?limit=10&offset=10",
-            "previous": null,
+            "2015": null,
+            "2016": null,
+            "2017": 107,
+            "Month_of_Date_Created":Jan
+        },
+         {
+            "2015": null,
+            "2016": null,
+            "2017": 107,
+            "Month_of_Date_Created":Jan
         }
         
 **Parameters :**
 
-    bearer_token : Optional[str]
-        Twitter API Bearer Token
-    consumer_key : Optional[str]
-        Twitter API Consumer Key
+    Year : Optional
+        Year parameter as 2015,2016,2017. 
+    Entity : Optional
+        Entity Name parameter such as Infometry.
+    Customer Name : Optional
+        Customer Name parameter such as Redhat.
 
 
 ``GET/getTotalNumberOfInvoices``
