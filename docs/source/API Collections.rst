@@ -34,9 +34,9 @@ End Points
     Entity : Optional
         Entity Name parameter such as Infometry.
     Customer Name : Optional
-        Customer Name parameter such as Redhat.
+        Customer Name parameter such as Better Buy,DelRey Distributors.
  
-**Example response**:
+**Example Response**:
 
     .. sourcecode:: json
 
@@ -54,55 +54,149 @@ End Points
         }
         
         
-``GET/getTotalNumberOfInvoices``
+**Top AR by Customers**:        
+    
+``GET /getTopARCustomers``
 
-    Get Total number of invoices.
+    Retrive all Top Account Receivable Customers.
     
 **Parameters :**
 
-    bearer_token : Optional[str]
-        Twitter API Bearer Token
-    consumer_key : Optional[str]
-        Twitter API Consumer Key
+    Year : Optional
+        Year parameter as 2015,2016,2017. 
+    Entity : Optional
+        Entity Name parameter such as Infometry.
+    Customer Name : Optional
+        Customer Name parameter such as Better Buy,DelRey Distributors.
         
+**Example Response**:
 
-.. code-block:: rs
+    .. sourcecode:: json
 
-   Lumache has its documentation hosted on Read the Docs.
+        {
+            "CUSTOMER_NAME": "DelRey Distributors",
+            "AMOUNT": "$1,955K"
+        },
+         {
+            "CUSTOMER_NAME": "Everett Fine Wines",
+            "AMOUNT": "$1,728K"
+        }
+        
+**Invoices Outstanding Due**:        
     
-``GET/getTopARCustomers``
-
-    Get all Top Account Receivable Customers.
-    
-Parameters
-----------
-bearer_token : Optional[str]
-    Twitter API Bearer Token
-consumer_key : Optional[str]
-    Twitter API Consumer Key
-    
-``GET/getInvoiceOutstandingDue``
+``GET /getInvoiceOutstandingDue``
    
     Get Total Invoice Outstanding Due Amount.
     
-Parameters
-----------
-bearer_token : Optional[str]
-    Twitter API Bearer Token
-consumer_key : Optional[str]
-    Twitter API Consumer Key
-    
-``getDSO``
+**Parameters :**
 
-    Get Total DSO details.
+    Year : Optional
+        Year parameter as 2015,2016,2017. 
+    Entity : Optional
+        Entity Name parameter such as Infometry.
+    Customer Name : Optional
+        Customer Name parameter such as Better Buy,DelRey Distributors.
+        
+**Example Response**:
+
+    .. sourcecode:: json
+
+        {
+            "CUSTOMER_NAME": "DelRey Distributors",
+            "INVOICES_CLEARED": "450.0",
+            "TOTAL_OUTSTANDING_INVOICES": "171.0"
+        },
+         {
+            "CUSTOMER_NAME": "Better Buy",
+            "INVOICES_CLEARED": "61.0",
+            "TOTAL_OUTSTANDING_INVOICES": "4.0"
+        }
+
+
+**DSO yearwise**:
     
-``GET/getMonthInvoiceStatus``
+``GET /getDSO``
+
+    Retrive Total DSO details yearwise.
+    
+**Parameters :**
+
+    Year : Optional
+        Year parameter as 2015,2016,2017. 
+    Entity : Optional
+        Entity Name parameter such as Infometry.
+    Customer Name : Optional
+        Customer Name parameter such as Better Buy,DelRey Distributors.
+        
+**Example Response**:
+
+    .. sourcecode:: json
+
+        {
+            "YEAR_OF_INVOICE_DATE": 2015,
+            "DSO": "181"
+        },
+         {
+           "YEAR_OF_INVOICE_DATE": 2016,
+            "DSO": "182"
+        }
+        
+**Month Invoices Satus**:
+    
+``GET /getMonthInvoiceStatus``
     
     Get all Map Invoice Status details.
     
-``GET/getOpenInvoiceDetails`` 
+**Parameters :**
+
+    Year : Optional
+        Year parameter as 2015,2016,2017. 
+    Entity : Optional
+        Entity Name parameter such as Infometry.
+    Customer Name : Optional
+        Customer Name parameter such as Better Buy,DelRey Distributors.
+        
+**Example Response**:
+
+    .. sourcecode:: json
+
+        {
+            "YEAR_OF_INVOICE_DATE": 2015,
+            "DSO": "181"
+        },
+         {
+           "YEAR_OF_INVOICE_DATE": 2016,
+            "DSO": "182"
+        }
+        
+
+**Open Invoices Details**:
+    
+``GET /getOpenInvoiceDetails`` 
     
     Get Open Invoice Details.
+ 
+ **Parameters :**
+
+    Year : Optional
+        Year parameter as 2015,2016,2017. 
+    Entity : Optional
+        Entity Name parameter such as Infometry.
+    Customer Name : Optional
+        Customer Name parameter such as Better Buy,DelRey Distributors.
+        
+**Example Response**:
+
+    .. sourcecode:: json
+
+        {
+            "YEAR_OF_INVOICE_DATE": 2015,
+            "DSO": "181"
+        },
+         {
+           "YEAR_OF_INVOICE_DATE": 2016,
+            "DSO": "182"
+        }
  
 
 Income and Expense Analysis 
