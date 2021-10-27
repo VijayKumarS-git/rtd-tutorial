@@ -54,6 +54,7 @@ End Points
         }
         
         
+        
 **Top AR by Customers**:        
     
 ``GET /getTopARCustomers``
@@ -62,12 +63,11 @@ End Points
     
 **Parameters :**
 
-    Year : Optional
-        Year parameter as 2015,2016,2017. 
-    Entity : Optional
-        Entity Name parameter such as Infometry.
-    Customer Name : Optional
-        Customer Name parameter such as Better Buy,DelRey Distributors.
+    **Year(Optional)** : Year parameter as 2015,2016,2017.  
+    
+    **Entity(Optional)** : Entity Name parameter such as Infometry.
+    
+    **Customer Name(Optional)** : Customer Name parameter such as Better Buy,DelRey Distributors.
         
 **Example Response**:
 
@@ -82,6 +82,8 @@ End Points
             "AMOUNT": "$1,728K"
         }
         
+        
+        
 **Invoices Outstanding Due**:        
     
 ``GET /getInvoiceOutstandingDue``
@@ -90,12 +92,12 @@ End Points
     
 **Parameters :**
 
-    Year : Optional
-        Year parameter as 2015,2016,2017. 
-    Entity : Optional
-        Entity Name parameter such as Infometry.
-    Customer Name : Optional
-        Customer Name parameter such as Better Buy,DelRey Distributors.
+     **Year(Optional)** : Year parameter as 2015,2016,2017.  
+    
+    **Entity(Optional)** : Entity Name parameter such as Infometry.
+    
+    **Customer Name(Optional)** : Customer Name parameter such as Better Buy,DelRey Distributors.
+    
         
 **Example Response**:
 
@@ -121,12 +123,12 @@ End Points
     
 **Parameters :**
 
-    Year : Optional
-        Year parameter as 2015,2016,2017. 
-    Entity : Optional
-        Entity Name parameter such as Infometry.
-    Customer Name : Optional
-        Customer Name parameter such as Better Buy,DelRey Distributors.
+     **Year(Optional)** : Year parameter as 2015,2016,2017.  
+    
+    **Entity(Optional)** : Entity Name parameter such as Infometry.
+    
+    **Customer Name(Optional)** : Customer Name parameter such as Better Buy,DelRey Distributors.
+    
         
 **Example Response**:
 
@@ -149,12 +151,12 @@ End Points
     
 **Parameters :**
 
-    Year : Optional
-        Year parameter as 2015,2016,2017. 
-    Entity : Optional
-        Entity Name parameter such as Infometry.
-    Customer Name : Optional
-        Customer Name parameter such as Better Buy,DelRey Distributors.
+     **Year(Optional)** : Year parameter as 2015,2016,2017.  
+    
+    **Entity(Optional)** : Entity Name parameter such as Infometry.
+    
+    **Customer Name(Optional)** : Customer Name parameter such as Better Buy,DelRey Distributors.
+    
         
 **Example Response**:
 
@@ -178,12 +180,12 @@ End Points
  
  **Parameters :**
 
-    Year : Optional
-        Year parameter as 2015,2016,2017. 
-    Entity : Optional
-        Entity Name parameter such as Infometry.
-    Customer Name : Optional
-        Customer Name parameter such as Better Buy,DelRey Distributors.
+     **Year(Optional)** : Year parameter as 2015,2016,2017.  
+    
+    **Entity(Optional)** : Entity Name parameter such as Infometry.
+    
+    **Customer Name(Optional)** : Customer Name parameter such as Better Buy,DelRey Distributors.
+        
         
 **Example Response**:
 
@@ -197,6 +199,7 @@ End Points
            "YEAR_OF_INVOICE_DATE": 2016,
             "DSO": "182"
         }
+ 
  
 
 Income and Expense Analysis 
