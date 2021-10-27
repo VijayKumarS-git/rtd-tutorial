@@ -23,9 +23,18 @@ End Points
 ==========
 **Total Invoices By Month**: 
 
-.. http:get:: /api/v3/projects/
+``GET /getTotalNumberOfInvoices``
     
     Retrive Total number of invoices.
+    
+**Parameters :**
+
+    Year : Optional
+        Year parameter as 2015,2016,2017. 
+    Entity : Optional
+        Entity Name parameter such as Infometry.
+    Customer Name : Optional
+        Customer Name parameter such as Redhat.
  
 **Example response**:
 
@@ -44,16 +53,7 @@ End Points
             "Month_of_Date_Created":Jan
         }
         
-**Parameters :**
-
-    Year : Optional
-        Year parameter as 2015,2016,2017. 
-    Entity : Optional
-        Entity Name parameter such as Infometry.
-    Customer Name : Optional
-        Customer Name parameter such as Redhat.
-
-
+        
 ``GET/getTotalNumberOfInvoices``
 
     Get Total number of invoices.
