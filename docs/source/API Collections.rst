@@ -29,12 +29,10 @@ End Points
     
 **Parameters :**
 
-    Year : Optional
-        Year parameter as 2015,2016,2017. 
-    Entity : Optional
-        Entity Name parameter such as Infometry.
-    Customer Name : Optional
-        Customer Name parameter such as Better Buy,DelRey Distributors.
+    **Year(Optional)** : Year parameter as 2015,2016,2017.   
+    **Entity(Optional)** : Entity Name parameter such as Infometry.
+    **Customer Name(Optional)** : Customer Name parameter such as Better Buy,DelRey Distributors.
+        
  
 **Example Response**:
 
