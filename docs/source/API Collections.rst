@@ -46,7 +46,7 @@ End Points
             "2017": 107,
             "Month_of_Date_Created":Jan
         },
-         {
+        {
             "2015": null,
             "2016": null,
             "2017": 107,
@@ -77,7 +77,7 @@ End Points
             "CUSTOMER_NAME": "DelRey Distributors",
             "AMOUNT": "$1,955K"
         },
-         {
+        {
             "CUSTOMER_NAME": "Everett Fine Wines",
             "AMOUNT": "$1,728K"
         }
@@ -92,7 +92,7 @@ End Points
     
 **Parameters :**
 
-     **Year(Optional)** : Year parameter as 2015,2016,2017.  
+    **Year(Optional)** : Year parameter as 2015,2016,2017.  
     
     **Entity(Optional)** : Entity Name parameter such as Infometry.
     
@@ -108,7 +108,7 @@ End Points
             "INVOICES_CLEARED": "450.0",
             "TOTAL_OUTSTANDING_INVOICES": "171.0"
         },
-         {
+        {
             "CUSTOMER_NAME": "Better Buy",
             "INVOICES_CLEARED": "61.0",
             "TOTAL_OUTSTANDING_INVOICES": "4.0"
@@ -123,7 +123,7 @@ End Points
     
 **Parameters :**
 
-     **Year(Optional)** : Year parameter as 2015,2016,2017.  
+    **Year(Optional)** : Year parameter as 2015,2016,2017.  
     
     **Entity(Optional)** : Entity Name parameter such as Infometry.
     
@@ -138,7 +138,7 @@ End Points
             "YEAR_OF_INVOICE_DATE": 2015,
             "DSO": "181"
         },
-         {
+        {
            "YEAR_OF_INVOICE_DATE": 2016,
             "DSO": "182"
         }
@@ -151,7 +151,7 @@ End Points
     
 **Parameters :**
 
-     **Year(Optional)** : Year parameter as 2015,2016,2017.  
+    **Year(Optional)** : Year parameter as 2015,2016,2017.  
     
     **Entity(Optional)** : Entity Name parameter such as Infometry.
     
@@ -166,7 +166,7 @@ End Points
             "YEAR_OF_INVOICE_DATE": 2015,
             "DSO": "181"
         },
-         {
+        {
            "YEAR_OF_INVOICE_DATE": 2016,
             "DSO": "182"
         }
@@ -180,7 +180,7 @@ End Points
  
  **Parameters :**
 
-     **Year(Optional)** : Year parameter as 2015,2016,2017.  
+    **Year(Optional)** : Year parameter as 2015,2016,2017.  
     
     **Entity(Optional)** : Entity Name parameter such as Infometry.
     
@@ -195,7 +195,7 @@ End Points
             "YEAR_OF_INVOICE_DATE": 2015,
             "DSO": "181"
         },
-         {
+        {
            "YEAR_OF_INVOICE_DATE": 2016,
             "DSO": "182"
         }
