@@ -43,18 +43,17 @@ End Points
         {
             "2015": null,
             "2016": null,
-            "2017": 107,
-            "Month_of_Date_Created":Jan
+            "2017": "107",
+            "Month_of_Date_Created": "Jan"
         },
         {
             "2015": null,
             "2016": null,
-            "2017": 107,
-            "Month_of_Date_Created":Jan
+            "2017": "120",
+            "Month_of_Date_Created": "Feb"
         }
         
-        
-        
+    
 **Top AR by Customers**:        
     
 ``GET /getTopARCustomers``
